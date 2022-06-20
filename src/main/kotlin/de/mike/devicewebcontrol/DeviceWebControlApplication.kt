@@ -13,7 +13,6 @@ class DeviceWebControlApplication
 
 fun main(args: Array<String>) {
 	runApplication<DeviceWebControlApplication>(*args){
-		setBannerMode(Banner.Mode.OFF)
 	}
 }
 

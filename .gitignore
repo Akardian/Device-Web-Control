@@ -1,32 +1,3 @@
-
-Skip to content
-Pull requests
-Issues
-Marketplace
-Explore
-@Akardian
-Akardian /
-Kotlin-Sorting
-Public
-
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-
-    Settings
-
-Kotlin-Sorting/.gitignore
-@Akardian
-Akardian add quicksort variant to project
-Latest commit 7e680bc on 12 Apr
-History
-1 contributor
-119 lines (90 sloc) 2.06 KB
 # Compiled class file
 *.class
 
@@ -53,9 +24,11 @@ hs_err_pid*
 
 #### Gradle ####
 
+# Gradle
 .gradle
 **/build/
-!src/**/build/
+.idea/**/gradle.xml
+.idea/**/libraries
 
 # Ignore Gradle GUI config
 gradle-app.setting
@@ -78,9 +51,6 @@ gradle-app.setting
 .idea/**/dictionaries
 .idea/**/shelf
 
-# AWS User-specific
-.idea/**/aws.xml
-
 # Generated files
 .idea/**/contentModel.xml
 
@@ -94,71 +64,30 @@ gradle-app.setting
 .idea/**/uiDesigner.xml
 .idea/**/dbnavigator.xml
 
-# Gradle
-.idea/**/gradle.xml
-.idea/**/libraries
-
-# Gradle and Maven with auto-import
-# When using Gradle or Maven with auto-import, you should exclude module files,
-# since they will be recreated, and may cause churn.  Uncomment if using
-# auto-import.
-# .idea/artifacts
-# .idea/compiler.xml
-# .idea/jarRepositories.xml
-# .idea/modules.xml
-# .idea/*.iml
-# .idea/modules
-# *.iml
-# *.ipr
-
-# CMake
-cmake-build-*/
-
-# Mongo Explorer plugin
-.idea/**/mongoSettings.xml
-
-# File-based project format
-*.iws
-
 # IntelliJ
 out/
 
-# mpeltonen/sbt-idea plugin
-.idea_modules/
-
-# JIRA plugin
-atlassian-ide-plugin.xml
-
-# Cursive Clojure plugin
-.idea/replstate.xml
-
-# Crashlytics plugin (for Android Studio and IntelliJ)
-com_crashlytics_export_strings.xml
-crashlytics.properties
-crashlytics-build.properties
-fabric.properties
-
 # Editor-based Rest Client
 .idea/httpRequests
-
-# Android studio 3.1+ serialized cache file
-.idea/caches/build_file_checksums.ser
-
 */build/*
 */.idea/*
 
-    © 2022 GitHub, Inc.
+#vaadin
+bower_components
+node
+node_modules
+package-lock.json
 
-    Terms
-    Privacy
-    Security
-    Status
-    Docs
-    Contact GitHub
-    Pricing
-    API
-    Training
-    Blog
-    About
+**/package.json
+**/webpack*.js
+**/tsconfig.json
+**/pnpm-lock.yaml
+**/index.html
 
-Loading complete
+**/types.d.ts
+**/*.generated.js
+**/*.generated.ts
+**/generated/**
+**/pnpmfile.js
+**/.pnpmfile.cjs
+**/*.npmrc
