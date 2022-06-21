@@ -1,1 +1,0 @@
-Application-specific style sheets to style the look of the application.

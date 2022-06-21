@@ -73,6 +73,7 @@ out/
 */.idea/*
 
 #vaadin
+frontend
 bower_components
 node
 node_modules

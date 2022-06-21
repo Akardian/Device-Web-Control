@@ -35,11 +35,11 @@ dependencyManagement {
 }
 
 dependencies {
-	implementation("com.vaadin:vaadin-spring-boot-starter:23.0.9")
+	implementation("com.vaadin:vaadin-spring-boot-starter:23.1.0")
 
-	implementation("org.springframework.boot:spring-boot-starter-data-jpa:2.6.7")
-	implementation("org.springframework.boot:spring-boot-starter-validation:2.6.7")
-	//implementation("org.springframework.boot:spring-boot-starter-web:2.6.7")
+	implementation("org.springframework.boot:spring-boot-starter-data-jpa:2.7.0")
+	implementation("org.springframework.boot:spring-boot-starter-validation:2.7.0")
+	implementation("org.springframework.boot:spring-boot-starter-web:2.7.0")
 
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.13.3")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
@@ -50,8 +50,8 @@ dependencies {
 	implementation("org.springdoc:springdoc-openapi-kotlin:1.6.9")
 
 	runtimeOnly("com.h2database:h2:2.1.212")
-	testImplementation("org.springframework.boot:spring-boot-starter-test:2.6.7")
-	developmentOnly("org.springframework.boot:spring-boot-devtools:2.6.7")
+	testImplementation("org.springframework.boot:spring-boot-starter-test:2.7.0")
+	developmentOnly("org.springframework.boot:spring-boot-devtools:2.7.0")
 
 	implementation("org.vaadin.artur.exampledata:exampledata:3.4.0")
 }

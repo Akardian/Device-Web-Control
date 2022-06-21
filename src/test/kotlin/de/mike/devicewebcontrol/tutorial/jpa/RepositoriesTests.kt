@@ -11,7 +11,8 @@ import org.springframework.data.repository.findByIdOrNull
 @DataJpaTest
 class RepositoriesTests @Autowired constructor(
     val entityManager: TestEntityManager,
-    val userRepository: CustomerRepository){
+    val userRepository: CustomerRepository
+){
 
     @Test
     @DisplayName("Create user and find by ID")

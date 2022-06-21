@@ -6,37 +6,36 @@ import org.springframework.stereotype.Component
 
 @Component
 class WindowsMediaKeyService {
-    val mediaKeys: MediaKeys = MediaKeys()
 
     fun getName(): String {
         return "MediaController"
     }
 
     fun volumeUp() {
-        mediaKeys.volumeUp()
+        MediaKeys.volumeUp()
     }
 
     fun volumeDown() {
-        mediaKeys.volumeDown()
+        MediaKeys.volumeDown()
     }
 
    fun volumeMute() {
-       mediaKeys.volumeMute()
+       MediaKeys.volumeMute()
    }
 
     fun songPrevious() {
-        mediaKeys.songPrevious()
+        MediaKeys.songPrevious()
     }
 
     fun songNext() {
-        mediaKeys.songNext()
+        MediaKeys.songNext()
     }
 
     fun songPlayPause() {
-        mediaKeys.songPlayPause()
+        MediaKeys.songPlayPause()
     }
 
     fun mediaStop() {
-        mediaKeys.mediaStop()
+        MediaKeys.mediaStop()
     }
 }

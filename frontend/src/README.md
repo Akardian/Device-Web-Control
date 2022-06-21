@@ -1,1 +1,0 @@
-Folder for HTML templates and JavaScript code.
